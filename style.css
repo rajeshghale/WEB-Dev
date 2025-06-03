@@ -1,24 +1,52 @@
-.header{
-    background-color: transparent;
-    padding: 20px;
-    text-align: center;
-    font-family: Arial, sans-serif;
-    font-size: 24px;
-    color: #333;
-    -webkit-text-stroke-width: 0mm;
-}
-#Home{
-    text-size-adjust: 50px;
-    font-family: Arial, sans-serif;    
-    font-weight: bold;
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+SC:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    box-sizing: border-box;;
 }
 body{
-    background-color: aquamarine;
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 20px;
+  background-color: #feb300;
 }
-.content{
+.container{
+    display: flex;
+    justify-content: center;
+    margin: 0 10px;
     padding: 20px;
-    font-family: Arial, sans-serif;
-    font-size: 18px;
-    color: #333;
-    
+}
+#heading{
+    font-size: 80px;
+    font-weight: 700;
+    font-family: "Alumni Sans SC", sans-serif;
+    align-content: center;
+}
+.nav-list{
+    display: flex;
+    justify-content: flex-start;
+    gap: 100px;
+    list-style: none;
+    height: 100px;
+    padding: 35px;
+    margin: 0 0px;
+    background-color: #fff5d7;
+}
+#Home{
+    color:black;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: 900;
+}
+#About{
+    color: black;
+    text-decoration: none;
+    font-size:25px;
+    font-weight: 900;
+}
+#Contact{
+    color: black;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: 900;
 }
