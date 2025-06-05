@@ -10,6 +10,7 @@ body{
   padding: 20px;
   background-color: #feb300;
 }
+
 .container{
     display: flex;
     justify-content: center;
@@ -49,4 +50,13 @@ body{
     text-decoration: none;
     font-size: 25px;
     font-weight: 900;
+}
+div li{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin: 0 20px;
+}
+hover li{
+    background-color: grey;
 }

@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family:monospace;
+    background-image: url(laptopimg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;}
+nav{
+    background-color: #333;
+    padding: 0px;
+}
+.container{
+    display:flex;
+    flex-direction: row;
+    padding-top: 3px;
+    padding-bottom: 0px;
+    padding-left: 15px;
+}
+nav a{
+    display:flex;
+    justify-content:flex-start;
+    text-decoration: none;
+    gap: 30px;
+    color:white;
+    padding: 30px;
+    font-size: 20px;
+    font-weight:bold;
+
+}
+nav a:hover{
+    background-color: white;
+    color:black;
+    transform: ease 0.8s;
+}
+nav a.active{
+    opacity: 0.1;
+}
