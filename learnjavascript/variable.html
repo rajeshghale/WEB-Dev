@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Variables</title>
+</head>
+<body>
+    <script>
+      let name='Rajesh';
+      console.log(name);
+      // alert(name);
+      let calculation =4+ 3;
+      console.log(calculation);
+      console.log(calculation + 2);
+
+      let result = calculation + 2; // concatenation of variables
+      console.log(result);
+
+      let name2 ='Prakriti';
+      console.log(name2);
+
+      console.log(name) 
+      // semicolons is optionl in javascript for the last statement
+      // but it is a good practice to use semicolons
+
+      name = 'Javascript'; // reassigning the variable
+      console.log(name);
+
+      name = 'Python' + ' is a programming language ' + 100 + '%';
+      // reassigning the variable can be concatenation of strings and numbers
+      console.log(name);
+
+
+      // variable naming 
+
+      const variableName= 2; // const value cannot be changed
+      console.log(variableName);
+
+      var variableName2 = 2; // var value can be changed
+      console.log(variableName2);
+      variableName2 = 'Cat'; // reassigning the variable
+      console.log(variableName2);
+
+      console.log(typeof variableName2); // checking the type of variable
+      console.log(typeof variableName); // checking the type of variable
+
+      // variable naming conventions
+      // camelCase: first word is lowercase, subsequent words are capitalized 
+      let cartQuantity = 0; // camelCase variable naming convention
+      // PascalCase: first letter of each word is capitalized
+      let CartQuantity = 0; // PascalCase variable naming convention
+    </script>
+</body>
+</html>
